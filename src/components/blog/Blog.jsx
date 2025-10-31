@@ -15,7 +15,7 @@ function Blog() {
           <h1 className="font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 sm:mb-0">
             Our Latest News & Blog
           </h1>
-          <button className="h-12 sm:h-12 lg:h-14 w-full sm:w-auto px-6 lg:w-43 mr-0 sm:mr-4 lg:mr-8 flex justify-center items-center rounded-full gap-2 sm:gap-3 text-base sm:text-lg border-2 border-[var(--text)] hover:bg-[var(--text)] hover:text-[var(--primary)] cursor-pointer transition-transform duration-500 whitespace-nowrap">
+          <button className=" bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 h-12 sm:h-12 lg:h-14 w-full sm:w-auto px-6 lg:w-43 mr-0 sm:mr-4 lg:mr-8 flex justify-center items-center rounded-full gap-2 sm:gap-3 text-base sm:text-lg border-2 text-[var(--primary)] hover:bg-[var(--text)] hover:text-[var(--primary)] cursor-pointer transition-transform duration-500 whitespace-nowrap">
             View All Post <FaArrowRight />
           </button>
         </div>
