@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <>
-      {/* ======= Top Section ======= */}
+    
       <section className="flex flex-col justify-center items-center bg-[var(--secondary)] text-[var(--primary)] py-12 md:py-16 lg:py-24 px-4 md:px-8 lg:px-10">
         <h1 className="uppercase text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-bold mb-8 md:mb-12 lg:mb-16 text-center">
           Let's Talk
@@ -28,7 +28,7 @@ function Footer() {
             </p>
           </div>
 
-          {/* Phone */}
+    
           <div>
             <h3 className="uppercase font-semibold tracking-wide mb-3 border-b border-gray-700 pb-1 w-fit text-sm md:text-base">
               Phone Call
@@ -38,7 +38,7 @@ function Footer() {
             </p>
           </div>
 
-          {/* Email */}
+   
           <div>
             <h3 className="uppercase font-semibold tracking-wide mb-3 border-b border-gray-700 pb-1 w-fit text-sm md:text-base">
               Email Address
@@ -55,10 +55,10 @@ function Footer() {
         <div className="w-full h-[1px] bg-[var(--text-secondary)] mt-12 md:mt-16 lg:mt-20"></div>
       </section>
 
-      {/* ======= Footer Section ======= */}
+      
       <footer className="bg-[var(--secondary)] text-white py-10 md:py-14 px-4 md:px-8 lg:px-16 xl:px-24">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12 lg:gap-16">
-          {/* Subscribe Section */}
+          
           <div className="lg:w-1/3">
             <h2 className="text-2xl font-semibold mb-3">
               Subscribe to Newsletter
@@ -68,7 +68,7 @@ function Footer() {
               promise.
             </p>
 
-            {/* Input */}
+   
             <form className="flex bg-[#1a1a1a] rounded-full overflow-hidden max-w-md h-12 md:h-14">
               <input
                 type="email"
@@ -100,7 +100,7 @@ function Footer() {
 </div>
           </div>
 
-          {/* Links + Instagram */}
+        
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 flex-1">
             {footerSections.map((section, index) => (
               <div key={index}>
@@ -122,7 +122,7 @@ function Footer() {
               </div>
             ))}
 
-            {/* Instagram section */}
+         
             <div>
               <h3 className="text-lg font-semibold mb-3 relative after:block after:w-10 after:h-[2px] after:bg-gradient-to-r after:from-purple-600 after:via-pink-500 after:to-orange-400 after:mt-1">
                 Instagram
@@ -141,7 +141,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
+
         <div className="border-t border-gray-800 mt-12 pt-6 text-[var(--text)]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs md:text-sm flex items-center gap-2 text-center md:text-left">
