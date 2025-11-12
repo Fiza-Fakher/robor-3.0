@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <section className='bg-[var(--background)] flex justify-center items-center py-8'>
         <nav className='flex justify-between items-center gap-6 bg-[var(--primary)] w-[90%] rounded-3xl shadow-md py-6 px-6'>
-          <Link to='/'><img src="logo.svg" alt="" className='w-24 sm:w-auto' /></Link>
+          <Link to='/'><img src="logo1.png" alt="" className='w-24 sm:w-auto lg:w-36' /></Link>
 
           {/* Desktop Menu */}
           <ul className='hidden lg:flex gap-6'>
